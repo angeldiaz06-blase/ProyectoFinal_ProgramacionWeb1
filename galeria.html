@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuta — Galeria</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- HEADER: navegación principal -->
+  <header class="encabezado">
+    <div class="menu container">
+      <!-- Logo / marca del restaurante -->
+      <a href="index.html" class="logo" >Yuta 中本悠太</a>
+
+      <!-- Menu icono responsivo-->
+      <input type="checkbox" id="menu" >
+      <label for="menu" >
+        <img src="imagenes/menu.png" class="menu-icono" alt="">
+      </label>
+
+      <!-- Navegación -->
+      <nav class="navegacion-principal" role="navigation" aria-label="Navegación principal">
+        <ul class="barra-navegacion">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="menu.html">Menú comida</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="promociones.html">Promociones</a></li>
+          <li><a href="nosotros.html">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO DE GALERÍA -->
+  <main class="container galeria-page">
+    
+    <!-- Título -->
+    <section class="galeria-seccion">
+      <h1 class="galeria-titulo">Galería <span class="accent">Yuta 中本悠太</span></h1>
+      <p class="galeria-intro">
+        Un vistazo a nuestra cocina japonesa, nuestras instalaciones y la esencia que hace de Yuta un lugar único.
+      </p>
+    </section>
+
+    <!-- SECCIÓN: EL RESTAURANTE -->
+    <section class="galeria-seccion">
+    <h2 class="galeria-subtitulo">El <span class="accent">restaurante</span></h2>
+
+    <div class="galeria-img">
+
+        <figure class="galeria-item">
+            <img src="imagenes/interior1.jpg" alt="Interior del restaurante con estilo japonés">
+            <figcaption>Vista principal del salón, inspirado en arquitectura tradicional japonesa.</figcaption>
+        </figure>
+
+        <figure class="galeria-item">
+            <img src="imagenes/interior2.jpg" alt="Decoración japonesa moderna">
+            <figcaption>Decoración minimalista con elementos contemporáneos japoneses.</figcaption>
+        </figure>
+
+        <figure class="galeria-item">
+            <img src="imagenes/exterior1.jpg" alt="Entrada del restaurante estilo japonés">
+            <figcaption>Entrada del restaurante, diseñada siguiendo líneas zen.</figcaption>
+        </figure>
+
+        <figure class="galeria-item">
+            <img src="imagenes/interior3.jpg" alt="Área tranquila para comer estilo japonés">
+            <figcaption>Área íntima de tatami, pensada para experiencias más tradicionales.</figcaption>
+        </figure>
+
+    </div>
+    </section>
+
+    <!-- SECCIÓN: COMIDA-->
+    <section class="galeria-seccion">
+        <h2 class="galeria-subtitulo">Nuestra <span class="accent">cocina</span></h2>
+
+        <div class="galeria-img">
+
+            <figure class="galeria-item">
+                <img src="imagenes/galeria-sushi.jpg" alt="Plato variado de sushi">
+                <figcaption>Selección de sushi artesanal preparado al momento.</figcaption>
+            </figure>
+
+            <figure class="galeria-item">
+                <img src="imagenes/galeria-ramen.jpg" alt="Tazón de ramen japonés">
+                <figcaption>Ramen tradicional con caldo de cocción lenta y ingredientes frescos.</figcaption>
+            </figure>
+
+            <figure class="galeria-item">
+                <img src="imagenes/galeria-tempura.jpg" alt="Tempura crujiente tradicional">
+                <figcaption>Tempura ligera y crujiente, receta clásica japonesa.</figcaption>
+            </figure>
+
+            <figure class="galeria-item">
+                <img src="imagenes/galeria-especial.jpg" alt="Plato japonés adicional">
+                <figcaption>Un platillo especial del chef, inspirado en sabores modernos de Japón.</figcaption>
+            </figure>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN: EVENTOS -->
+    <section class="galeria-seccion">
+        <h2 class="galeria-subtitulo">Eventos <span class="accent">especiales</span></h2>
+
+        <div class="galeria-img">
+
+            <figure class="galeria-item">
+                <img src="imagenes/evento1.jpg" alt="Evento cultural japonés">
+                <figcaption>Noche cultural japonesa con música y danza tradicional.</figcaption>
+            <a class="btn-action" href="#">Reserva ya</a>
+            </figure>
+
+            <figure class="galeria-item">
+                <img src="imagenes/evento2.jpg" alt="Cena temática japonesa">
+                <figcaption>Cena temática con menú de degustación inspirado en festividades niponas.</figcaption>
+            <a class="btn-action" href="#">Reserva ya</a>
+            </figure>
+
+            <figure class="galeria-item">
+                <img src="imagenes/evento3.jpg" alt="Demostración culinaria en vivo">
+                <figcaption>Demostración de cocina en vivo por nuestro chef especialista.</figcaption>
+            <a class="btn-action" href="#">Reserva ya</a>
+            </figure>
+
+            <figure class="galeria-item">
+                <img src="imagenes/evento4.jpg" alt="Nuevo evento japonés">
+                <figcaption>Experiencia exclusiva: ceremonia del té con explicación cultural.</figcaption>
+            <a class="btn-action" href="#">Reserva ya</a>
+            </figure>
+
+        </div>
+    </section>
+
+
+  </main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Columna 1: Información del restaurante -->
+    <div class="footer-txt">
+      <h4>Yuta</h4>
+      <p>Restaurante de cocina japonesa — tradición y modernidad.</p>
+      <h4>Horario</h4>
+      <p>Lun - Dom: 12:00 - 22:00</p>
+      <h4>Contacto</h4>
+      <p>Tel: 5555555555</p>
+      <p>Email: contacto@yuta.gmail.com</p>
+    </div>
+
+    <!-- Columna 2: Redes o enlaces futuros -->
+    <div class="footer-links">
+      <h4>Enlaces</h4>
+      <p><a href="index.html">Inicio</a></p>
+      <p><a href="menu.html">Menú</a></p>
+      <p><a href="promociones.html">Promociones</a></p>
+      <p><a href="nosotros.html">Nosotros</a></p>
+    </div>
+
+    <!-- Columna 3: Datos del alumno -->
+    <div class="footer-datosAlumno">
+      <h4>Información del proyecto</h4>
+      <p>Alumno: Angel Diaz</p>
+      <p>Materia: Programación Web 1</p>
+      <p>FES Aragón UNAM</p>
+      <p>Ciclo escolar: 2026-1</p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>

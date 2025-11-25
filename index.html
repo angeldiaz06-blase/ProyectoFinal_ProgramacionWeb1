@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuta — Inicio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- HEADER: navegación principal -->
+  <header class="encabezado">
+    <div class="menu container">
+      <!-- Logo / marca del restaurante -->
+      <a href="index.html" class="logo" >Yuta 中本悠太</a>
+
+      <!-- Menu icono responsivo-->
+      <input type="checkbox" id="menu">
+      <label for="menu" >
+        <img src="imagenes/menu.png" class="menu-icono" alt="">
+      </label>
+
+      <!-- Navegación -->
+      <nav class="navegacion-principal" role="navigation" aria-label="Navegación principal">
+        <ul class="barra-navegacion">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="menu.html">Menú comida</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="promociones.html">Promociones</a></li>
+          <li><a href="nosotros.html">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Pagina principal (Inicio) -->
+  <main>
+    <section class="encabezado-content container">
+      <!-- Presentacion y bienvenida -->
+      <div class="encabezado-txt">
+        <h1>Bienvenido a <span> Yuta 中本悠太 </span></h1>
+        <p>
+          Sabores tradicionales de Japón con un toque moderno. Disfruta de nuestro delicioso sushi, ramen,
+          yakitori y postres auténticos preparados con pasión y respeto por la tradición.
+        </p>
+
+        <div class="botones">
+          <!-- Botones: promociones, ver menú  -->
+          <a  href="promociones.html" class="btn-1">Explora nuestras promociones</a>
+          <a  href="menu.html" class="btn-1">Ver menú</a>
+        </div>
+      </div>
+
+      <!-- Imagen de presentacion -->
+      <div class="presentacion-img" role="img" aria-label="Plato destacado de Ryota">
+        <img src="imagenes/hero-ramen.jpg" alt="Ramen Tonkotsu destacado" />
+      </div>
+    </section>
+
+    
+    <!-- Especialidades (sección de platos destacados)  -->
+
+    <section class="top-menu container">
+      <h2>Nuestras <span> especialidades </span></h2>
+      <div class="platillos">
+
+        <!-- platillo 1 -->
+        <div class="p-tarjeta">
+          <div class="p-tarjeta_txt">
+            <img src="imagenes/sushi-mix.jpg" alt="Plato de sushi variado" />
+            <h3>Sushi Ryota (mix)</h3>
+            <p>Selección de nigiris y maki con pescado fresco y arroz sazonado al estilo tradicional.</p>
+            <div class="precios">
+              <span>Ch: $120  |  M: $180  |   G: $240</span>
+              <a href="menu.html" class="btn-2">Ver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- platillo 2 -->
+        <div class="p-tarjeta">
+          <div class="p-tarjeta_txt">
+            <img src="imagenes/ramen-tonkotsu.jpg" alt="Ramen tonkotsu" />
+            <h3>Ramen Tonkotsu</h3>
+            <p>Caldo rico y cremoso, fideos artesanales, chashu, huevo marinado y cebolla crujiente.</p>
+            <div class="precios">
+              <span>Ch: $110   |  M: $150  |  G: $190</span>
+              <a href="menu.html" class="btn-2">Ver</a>
+            </div>
+          </div>
+        </div>
+       
+
+        <!-- platillo 3 -->
+
+        <div class="p-tarjeta">
+          <div class="p-tarjeta_txt">
+            <img src="imagenes/tempura.jpg" alt="Tempura variada" />
+            <h3>Tempura clásica</h3>
+            <p>Verduras y langostinos rebozados y fritos al momento, acompañados de salsa tentsuyu.</p>
+            <div class="precios">
+              <span>$130</span>
+              <a href="menu.html" class="btn-2">Ver</a>
+            </div>
+          </div>
+        </article>  
+      </div>
+    </div>
+
+    <!-- Sección de oferta y destacados  -->
+    <section class="destacado">
+        <div class="destacado-content container">
+            <!-- Imagen a la izquierda -->
+             <div class="destacado-img">
+                <img src="imagenes/paquete-familiar.png" alt="Paquete familiar Ryota" />
+            </div>
+        <!-- Texto a la derecha -->
+            <div class="destacado-txt">
+                <h2>Oferta especial <span> ¡Aprovecha! </span></h2>
+                <p>
+                    <span>Paquete familiar: </span> 2 rolls grandes + 2 bebidas tradicionales + 1 postre japonés
+                    por un precio especial. <span>Perfecto para compartir.</span>
+                </p>
+                <div class="destacado-btn">
+                    <span>$420</span>
+                    <a class="btn-2" href="promociones.html">Explora nuestras promociones</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacion general -->
+    <section class="info-section container">
+        <div class="info-content">
+            <div class="info-text">
+                <h2> Conoce <span class="accent">Yuta 中本悠太</span></h2>
+                <p>
+                    En Yuta combinamos recetas tradicionales japonesas con técnicas contemporáneas.
+                    Nuestro objetivo es crear una experiencia unica llena de sabor, ambiente y cultura.
+                </p>
+                <a class="btn-1" href="nosotros.html">Más información</a>
+            </div>
+
+            <div class="info-img">
+                <img src="imagenes/interior-restaurant.jpg" alt="Vista restaurante Yuta" />
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Columna 1: Información del restaurante -->
+    <div class="footer-txt">
+      <h4>Yuta</h4>
+      <p>Restaurante de cocina japonesa — tradición y modernidad.</p>
+      <h4>Horario</h4>
+      <p>Lun - Dom: 12:00 - 22:00</p>
+      <h4>Contacto</h4>
+      <p>Tel: 5555555555</p>
+      <p>Email: contacto@yuta.gmail.com</p>
+    </div>
+
+    <!-- Columna 2: Redes o enlaces futuros -->
+    <div class="footer-links">
+      <h4>Enlaces</h4>
+      <p><a href="index.html">Inicio</a></p>
+      <p><a href="menu.html">Menú</a></p>
+      <p><a href="promociones.html">Promociones</a></p>
+      <p><a href="nosotros.html">Nosotros</a></p>
+    </div>
+
+    <!-- Columna 3: Datos del alumno -->
+    <div class="footer-datosAlumno">
+      <h4>Información del proyecto</h4>
+      <p>Alumno: Angel Diaz</p>
+      <p>Materia: Programación Web 1</p>
+      <p>FES Aragón UNAM</p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
